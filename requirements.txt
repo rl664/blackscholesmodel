@@ -4,5 +4,6 @@ seaborn
 numpy
 pandas
 altair
+scipy
 
 
