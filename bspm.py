@@ -21,7 +21,11 @@ st.write(
     Made by Raphaelle Lassalle
     """
 )
-
+st.set_page_config(
+    page_title="Black-Scholes Model",
+    page_icon="📈",
+    layout="wide"
+)
 
 # Load the data from a CSV. We're caching this so it doesn't reload every time the app
 # reruns (e.g. if the user interacts with the widgets).
