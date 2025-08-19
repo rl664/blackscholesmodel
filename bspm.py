@@ -9,7 +9,6 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 
 
-
 # Show the page title and description.
 st.set_page_config(page_title="Black-Scholes Pricing Model", page_icon="📈")
 st.title("📈Black-Scholes Pricing Model")
@@ -18,6 +17,8 @@ st.write(
     Within the Black-Scholes framework, this interactive heatmap reveals how option values evolve across different spot price and volatility levels when the strike price is fixed. By visualising the pricing surface in this way, we gain direct insight into the sensitivity of options to underlying market movements and volatility shocks. 
  
     Click on the widgets below to explore!
+
+    Made by Raphaelle Lassalle
     """
 )
 
